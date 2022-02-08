@@ -1,0 +1,580 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  border-radius: 4px !important;
+}
+.body {
+  min-height: 100vh;
+  background-color: #c8c8c8;
+  padding-bottom: 10%;
+}
+
+.main-header {
+  /* height: 20%; */
+  height: 5em;
+  position: relative !important;
+  background-color: #003057 !important;
+}
+
+#nav-uar {
+  font-size: larger;
+  font-weight: 600;
+  width: 25ch;
+  color: white !important;
+}
+
+#logo {
+  height: 45px;
+  background-color: #003057;
+}
+
+#logo-footer {
+  height: 35px;
+}
+
+#welcome-user {
+  color: white;
+}
+
+#welcome-user:hover {
+  color: #cbd3da;
+}
+
+.footer {
+  position: fixed;
+  clear: both;
+  height: 10%;
+  z-index: 1030;
+  color: white;
+  background-color: #001e3a;
+  width: 100%;
+  text-align: center;
+  font-size: 1.1em;
+  bottom: 0 !important;
+  max-height: 4em;
+}
+
+.uar-logo {
+  margin-left: 0px;
+  text-align: left !important;
+}
+
+.multicolor-bar {
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  height: 2.5em;
+  width: 50%;
+}
+
+.admin-card {
+  background-color: rgb(0, 98, 155);
+  background-image: linear-gradient(
+    0,
+    rgb(1, 76, 119) 2%,
+    rgb(0, 98, 155) 50.9615%,
+    rgb(0, 98, 155) 98.5577%
+  );
+}
+
+.manager-card {
+  background-color: rgb(120, 120, 120);
+  background-image: linear-gradient(
+    0,
+    rgb(94, 94, 94) 1.44231%,
+    rgb(142, 142, 142) 97.5962%
+  );
+}
+
+.eclipse-card-btn {
+  background-color: #00629b !important;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.card-popup-kpi {
+  background-image: linear-gradient(to bottom, #003057, #003057);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.text-light {
+  color: #f8f9fa !important;
+}
+
+.announcement-btn {
+  background-color: white !important;
+  border: none !important;
+}
+
+.esarf-btn {
+  background-color: white !important;
+  border: none !important;
+}
+
+.tim-management-portal {
+  background-image: linear-gradient(to bottom, #a0a0a0, #606060);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.eclipse-management-portal {
+  background-image: linear-gradient(to bottom, #a0a0a0, #606060);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.landing-page {
+  margin-top: 2em !important;
+  margin-bottom: 3.5em !important;
+}
+
+.navlink-header-button {
+  width: 30px;
+  text-decoration: none;
+}
+
+.request-data {
+  max-width: 95%;
+}
+
+.tim-manager-nav.active {
+  background-color: #198754 !important;
+  color: white !important;
+}
+
+.eclipse-manager-nav.active {
+  background-color: #00629b !important;
+  color: white !important;
+}
+
+tfoot input {
+  width: 100%;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.table-container {
+  display: none;
+}
+
+.main-content {
+  min-height: 69.15vh;
+  margin-bottom: 4.5em;
+}
+
+.tim-admin-portal-header {
+  background-image: linear-gradient(to bottom, #009e8c, #1b8579);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.eclipse-admin-portal-header {
+  background-image: linear-gradient(to bottom, #003e6b, #003e6b);
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: repeat;
+}
+
+.tim-admin-tabs-container {
+  background-color: #eeeeee !important;
+  margin: 4px;
+  height: 2.5em;
+}
+
+.eclipse-admin-tabs-container {
+  background-color: #eeeeee !important;
+  margin: 4px;
+  height: 2.5em;
+}
+
+.tim-admin-tab {
+  font-size: small !important;
+  background-color: white !important;
+  color: #333333 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: #f8f9fa;
+  border-left: #f8f9fa;
+  font-weight: 600 !important;
+  height: 3em;
+}
+
+.eclipse-admin-tab {
+  font-size: small !important;
+  background-color: white !important;
+  color: #333333 !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: #f8f9fa;
+  border-left: #f8f9fa;
+  font-weight: 600 !important;
+  height: 3em;
+}
+
+.eclipse-admin-tab:hover,
+.eclipse-manager-nav:hover {
+  color: white !important;
+  background-color: #0099d8 !important;
+}
+
+.tim-admin-tab:hover,
+.tim-manager-nav:hover {
+  color: white !important;
+  background-color: #2cd1be !important;
+}
+
+.tim-admin-tab-active {
+  background-color: #009e8c !important;
+  color: white !important;
+}
+
+.table-container {
+  margin-top: 1.2em !important;
+}
+
+.table-data-container {
+  min-height: 27.7vh;
+}
+
+.spinner-container {
+  margin-top: 20vh;
+}
+
+/* tabs */
+.tim-admin-tab.active {
+  background-color: #118e80 !important;
+  color: white !important;
+}
+
+.eclipse-admin-tab.active {
+  background-color: #00629b !important;
+  color: white !important;
+}
+
+.tim-admin-header-tab {
+  text-decoration: none !important;
+  border: none !important;
+  background-color: white !important;
+  color: black !important;
+  text-align: left !important;
+}
+.tim-admin-header-tab:hover {
+  background-color: #e4e4e4 !important;
+  color: black !important;
+}
+
+.home-eclipse-btn:hover {
+  background-color: #014c77 !important;
+}
+
+th {
+  min-width: 5em !important;
+}
+
+.tim-admin-portal-heading {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+.eclipse-admin-portal-heading {
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+table.dataTable tbody td.select-checkbox:before {
+  width: 1em !important;
+  height: 1em !important;
+}
+
+table.dataTable tbody tr.selected > td.select-checkbox:before {
+  background: linear-gradient(45deg, black, transparent);
+}
+
+.checkbox-header > input {
+  display: none !important;
+}
+
+.dt-button.buttons-html5,
+.dt-button.buttons-print {
+  font-weight: 600 !important;
+  background: #e9e9e9 !important;
+}
+
+.dt-button.buttons-html5:hover,
+.dt-button.buttons-print:hover {
+  color: whitesmoke !important;
+  background: #343a40 !important;
+}
+.dt-buttons {
+  margin-left: 1.5em;
+}
+
+.table {
+  /* display: block; */
+  overflow-x: auto;
+}
+
+#welcome-user {
+  margin: 0em 1em 0em 2em;
+}
+
+.website-management-btn {
+  margin: 0em 2em 0em 2em;
+}
+
+/* .edit-column {
+  display: none;
+} */
+
+h1 {
+  text-align: center;
+}
+.accordian-input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.accordion-wrapper {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  margin: 0 auto;
+}
+.accordion {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+.accordion:last-child {
+  margin-bottom: 0;
+}
+.accordion-label {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 16px;
+  background: rgba(4, 57, 94, 0.8);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.accordian-card {
+  margin-top: 2em;
+}
+.accordion-label:hover {
+  background: rgba(4, 57, 94, 1);
+}
+.accordion-label::after {
+  content: "\276F";
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordion-content {
+  max-height: 0;
+  padding: 0 16px;
+  color: rgba(4, 57, 94, 1);
+  background: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.accordion-content p {
+  margin: 0;
+  color: rgba(4, 57, 94, 0.7);
+  font-size: 18px;
+}
+input:checked + .accordion-label {
+  background: rgba(4, 57, 94, 1);
+}
+input:checked + .accordion-label::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+input:checked ~ .accordion-content {
+  max-height: 100vh;
+  min-height: 10em;
+  padding: 16px;
+}
+
+.status-card {
+  margin: 0em 20em;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.status-data-form {
+  padding: 0em 15%;
+}
+
+.edit-button {
+  text-decoration: none;
+  background: #e6b800;
+  padding: 0.3em;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.edit-button:hover {
+  color: white;
+  background-color: #ffc108;
+}
+
+.title-request {
+  margin: 0em 20em;
+}
+
+.searchinputs {
+  display: inline;
+}
+
+.searchIcon {
+  display: contents;
+}
+
+.dataResult {
+  margin-top: 5px;
+  width: auto;
+  min-width: 6em;
+  height: auto;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  overflow: hidden;
+  overflow-y: auto;
+  display: inline-grid;
+  cursor: pointer;
+}
+.managerItem:hover,
+.accessItem:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+.dataResult::-webkit-scrollbar {
+  display: none;
+}
+
+.dataResult .managerItem .accessItem {
+  width: 100%;
+  height: 2em;
+  align-items: center;
+  color: black;
+}
+
+#clearBtn {
+  cursor: pointer;
+}
+
+.change-access-btn {
+  margin-top: 1em;
+}
+
+.search-manager-input,
+.search-access-input {
+  width: 20em;
+}
+
+.search-access-input {
+  width: 10em;
+}
+
+.remove-access {
+  margin-bottom: 2em;
+}
+
+.submit-approval .reset-records {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.submit-approval:hover,
+.reset-records:hover {
+  color: white !important;
+}
+
+.submit-approval-div {
+  bottom: 0 !important;
+  margin-top: 20px;
+  background-color: #eeeeee;
+}
+
+.manager-signin-text {
+  margin-bottom: 2.7em !important;
+}
+
+.manager-card {
+  padding-bottom: 1.6rem !important;
+}
+
+.eclipse-tab-heading {
+  background-color: #00629b;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+  padding-top: 0em !important;
+}
+
+.dataTables_paginate .paging_simple_numbers {
+  margin-top: 1em !important;
+}
+
+table.dataTable {
+  margin-bottom: 1em !important;
+  padding-top: 1em !important;
+}
